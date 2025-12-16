@@ -1,0 +1,374 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1652,
+      "max": [
+        3.8169329166412354,
+        10.738311767578125,
+        3.9802656173706055
+      ],
+      "min": [
+        -3.816932201385498,
+        4.704736232757568,
+        -3.5158884525299072
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 19824,
+      "componentType": 5126,
+      "count": 1652,
+      "max": [
+        0.9999704957008362,
+        0.9998897314071655,
+        0.999764621257782
+      ],
+      "min": [
+        -0.9999704360961914,
+        -0.9999592900276184,
+        -0.9974037408828735
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1652,
+      "max": [
+        0.991904079914093,
+        0.8630979657173157,
+        0.9520381689071655,
+        1.0
+      ],
+      "min": [
+        -0.9999642372131348,
+        -0.904516875743866,
+        -0.9488162398338318,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1652,
+      "max": [
+        0.9942778944969177,
+        0.9506019949913025
+      ],
+      "min": [
+        0.06616798043251038,
+        0.5616098046302795
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 9072,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 39648,
+      "componentType": 5126,
+      "count": 586,
+      "max": [
+        2.5908522605895996,
+        8.252018928527832,
+        -2.325333595275879
+      ],
+      "min": [
+        -2.5908522605895996,
+        6.5055742263793945,
+        -5.506601333618164
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46680,
+      "componentType": 5126,
+      "count": 586,
+      "max": [
+        0.9999839663505554,
+        0.9999332427978516,
+        1.0
+      ],
+      "min": [
+        -0.9999839663505554,
+        -0.9998634457588196,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 26432,
+      "componentType": 5126,
+      "count": 586,
+      "max": [
+        0.9991627931594849,
+        0.7949594259262085,
+        0.9998618960380554,
+        1.0
+      ],
+      "min": [
+        -0.9615580439567566,
+        -1.0,
+        -0.9999240636825562,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 13216,
+      "componentType": 5126,
+      "count": 586,
+      "max": [
+        0.9625727534294128,
+        0.5362076163291931
+      ],
+      "min": [
+        0.07252642512321472,
+        0.026605645194649696
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 36288,
+      "componentType": 5125,
+      "count": 3072,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "JosevanD (https://sketchfab.com/JosevanD2)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/trafalgar-laws-hat-a5799d464bd445c8832d7c88ae9fa01f",
+      "title": "Trafalgar Law's Hat"
+    },
+    "generator": "Sketchfab-14.34.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48576,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17904,
+      "byteOffset": 48576,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 53712,
+      "byteOffset": 66480,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35808,
+      "byteOffset": 120192,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 156000,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/lambert1_baseColor.png"
+    },
+    {
+      "uri": "textures/lambert1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/lambert1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "lambert1",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "hat_sphere1_lambert1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "hat_front1_lambert1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "91b3496b830f4097ae85fda2f8dc45d4.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "law_hat"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "hat_sphere1"
+    },
+    {
+      "mesh": 0,
+      "name": "hat_sphere1_lambert1_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "hat_front1"
+    },
+    {
+      "mesh": 1,
+      "name": "hat_front1_lambert1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
